@@ -13,8 +13,10 @@ extensions:
   - gomod: github.com/open-telemetry/opentelemetry-collector-contrib/extension/awsproxy v0.97.0
   - gomod: github.com/open-telemetry/opentelemetry-collector-contrib/extension/basicauthextension v0.97.0
   - gomod: github.com/open-telemetry/opentelemetry-collector-contrib/extension/bearertokenauthextension v0.97.0
-  - gomod: github.com/open-telemetry/opentelemetry-collector-contrib/extension/headerssetterextension v0.97.0
-  - gomod: github.com/CmdrSharp/custom-otelcol-extensions/headerssetterextension v0.97.0
+  # - gomod: github.com/open-telemetry/opentelemetry-collector-contrib/extension/headerssetterextension v0.97.0
+  # - gomod: github.com/CmdrSharp/custom-otelcol-extensions/headerssetterextension v0.97.0
+  - gomod: github.com/CmdrSharp/custom-otelcol-extensions/headerssetterextension v0.0.0-20240407111016-ad5d28340e0d
+  - gomod: github.com/open-telemetry/opentelemetry-collector-contrib/extension/healthcheckextension v0.97.0
   - gomod: github.com/open-telemetry/opentelemetry-collector-contrib/extension/httpforwarderextension v0.97.0
   - gomod: github.com/open-telemetry/opentelemetry-collector-contrib/extension/jaegerremotesampling v0.97.0
   - gomod: github.com/open-telemetry/opentelemetry-collector-contrib/extension/oauth2clientauthextension v0.97.0
